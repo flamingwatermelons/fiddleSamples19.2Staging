@@ -1,0 +1,59 @@
+<script src="http://staging.igniteui.com/19-2/js/modernizr.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="https://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
+<script src="https://cdn-na.infragistics.com/igniteui/latest/js/infragistics.core.js"></script>
+<script src="https://cdn-na.infragistics.com/igniteui/latest/js/infragistics.dv.js"></script>
+<link href="https://cdn-na.infragistics.com/igniteui/latest/css/themes/infragistics/infragistics.theme.css" rel="stylesheet"></link>
+<link href="https://cdn-na.infragistics.com/igniteui/latest/css/structure/infragistics.css" rel="stylesheet"></link>
+<link href="https://cdn-na.infragistics.com/igniteui/latest/css/structure/modules/infragistics.ui.chart.css" rel="stylesheet"></link>
+
+<div>
+        <div class="chart" id="chart"></div>
+        <div>
+            <div class="optionsPane">
+                <div><b>Category Item Highlight Options</b></div>
+                <div class="optionsColumn">
+
+                    <div>
+                        <label class="labels">Brush</label>
+                        <select class="selector" id="brush">
+                            <option value="gray">gray</option>
+                            <option value="blue">blue</option>
+                            <option value="red">red</option>
+                            <option value="green">green</option>
+                            <option value="orange">orange</option>
+                            <option value="violet">violet</option>
+                            <option value="indigo">indigo</option>
+                            <option value="black">black</option>
+                            <option value="white">white</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label class="labels">Thickness</label>
+                        <label class="values" id="thicknessLabel">1</label>
+                        <div class="slider" id="thicknessSlider"></div>
+                    </div>
+
+                    <div>
+                        <label class="labels">Opacity</label>
+                        <label class="values" id="opacityLabel">1</label>
+                        <div class="slider" id="opacitySlider"></div>
+                    </div>
+
+                    
+                    
+
+                    <label class="labels">Use Interpolation</label>
+                    <input class="checkbox" id="useInterpolationCheckBox" type="checkbox" checked=""></input>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="USCensus-attribution">
+            Population data from:<br />
+            <a href="http://www.census.gov/" target="_blank">U.S. Census Bureau</a>
+        </div>
+    </div>
