@@ -14,7 +14,7 @@ $( function () {
 
 				var workbook = null;
 				var xhr = new XMLHttpRequest();
-				xhr.open('GET', 'http://staging.igniteui.com/19-2/data-files/statistic.xlsx', true);
+				xhr.open('GET', 'https://staging.igniteui.com/19-2/data-files/statistic.xlsx', true);
 				xhr.responseType = 'arraybuffer';
 
 				xhr.onload = function (e) {

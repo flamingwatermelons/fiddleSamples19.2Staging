@@ -8,7 +8,7 @@ $(function () {
                 ],
                 width: 720,
                 height: 272,
-                posterUrl: 'http://staging.igniteui.com/19-2/images/samples/video-player/ig-pres.png',
+                posterUrl: 'https://staging.igniteui.com/19-2/images/samples/video-player/ig-pres.png',
                 fullscreen: false,
                 browserControls: false,
                 autohide: false,

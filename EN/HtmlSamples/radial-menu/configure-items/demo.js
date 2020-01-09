@@ -53,7 +53,7 @@ var lastCliked = null;
                     {
                         name: "button1",
                         header: "Bold",
-                        iconUri: "http://staging.igniteui.com/19-2/images/samples/radial-menu/Bold.png",
+                        iconUri: "https://staging.igniteui.com/19-2/images/samples/radial-menu/Bold.png",
                         click: function (evt, ui) {
                             lastCliked = evt.item.name;
                             toggleBold();
@@ -62,7 +62,7 @@ var lastCliked = null;
                     {
                         name: "button2",
                         header: "Italic",
-                        iconUri: "http://staging.igniteui.com/19-2/images/samples/radial-menu/Italic.png",
+                        iconUri: "https://staging.igniteui.com/19-2/images/samples/radial-menu/Italic.png",
                         click: function (evt, ui) {
                             lastCliked = evt.item.name;
                             toggleItalic();
